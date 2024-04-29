@@ -24,7 +24,7 @@ For precipitation, first run the above two procedures as for the other variables
 
 ## Note
 
-1. Different meteorological variables and dates require certain modifications when running the program, which have been commented on in the code.
+1. Different meteorological variables and dates require certain modifications when running the program, which have been commented in the code.
 2. The TPS method was implemented through ANUSPLIN, specifically the two functions Fun_Anusplin.m and Fun_lapgrd.m.
 
-For questions and comments, please contact Shouzhang Peng szp@nwafu.edu.cn.
+For questions and comments, please contact Shouzhang Peng at szp@nwafu.edu.cn.
