@@ -1,14 +1,14 @@
 # CDMet
 This repository contains interpolation codes for generating the China Daily Gridded Meteorological Dataset (CDMet).
 
-For each variable, For each variable, run Preprocess.m in the Preprocessing folder and then use the results to run Main_program.m in the Modelling and Interpolation folder. The PRE classification folder is a random forest (RF) classification program specific to the occurrence of precipitation, for precipitation variable only.
+Run Preprocess.m in the Preprocessing folder and then use the results to run Main_program.m in the Modelling and Interpolation folder for each variable. The PRE classification folder is a random forest (RF) classification program specific to the occurrence of precipitation, for precipitation only.
 
 ## Preprocessing
 
 Preprocess.m completes the following:
 1. Resample the reanalyze data and output it.
 2. Organise six combinations of covariates.
-3. Randomly divide the weather station data into training set and validation set.
+3. Randomly divide the weather station data into the training and validation set.
 4. Remove anomalous records from the observation data.
 
 ## Modelling and interpolation
@@ -24,7 +24,7 @@ For precipitation, first run the above two procedures as for the other variables
 
 ## Note
 
-1. Different meteorological variables and dates require certain modifications when running the programme, which have been commented in the code.
-2. The TPS method is implemented through ANUSPLIN, specifically the two functions Fun_Anusplin.m and Fun_lapgrd.m
+1. Different meteorological variables and dates require certain modifications when running the program, which have been commented on in the code.
+2. The TPS method was implemented through ANUSPLIN, specifically the two functions Fun_Anusplin.m and Fun_lapgrd.m.
 
 For questions and comments, please contact Shouzhang Peng szp@nwafu.edu.cn.
