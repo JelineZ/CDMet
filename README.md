@@ -1,5 +1,5 @@
 # CDMet
-This repository contains interpolation codes for generating the China Daily Gridded Meteorological Dataset (CDMet).
+This repository contains interpolation codes for generating the China Daily Gridded Meteorological Dataset (CDMet). The dataset can be downloaded here: https://zenodo.org/records/10963932.
 
 Run Preprocess.m in the Preprocessing folder and then use the results to run Main_program.m in the Modelling and Interpolation folder for each variable. The PRE classification folder is a random forest (RF) classification program specific to the occurrence of precipitation, for precipitation only.
 
